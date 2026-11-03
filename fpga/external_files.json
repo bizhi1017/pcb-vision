@@ -1,0 +1,790 @@
+{
+  "description": "Licensed integration dependencies omitted from public tree; exact submission source hashes",
+  "files": [
+    {
+      "path": "fpga/p9_compact/README.md",
+      "sha256": "d251e8964756374596bfea345dcf47cb787e80a547ecc8cb85f41a69fbdf5522",
+      "bytes": 913
+    },
+    {
+      "path": "fpga/p9_compact/README_项目接入.md",
+      "sha256": "486eb75cb6d7e3f762d7165b3b4becf8c6baf18d01948a1515e21042ff64c665",
+      "bytes": 1318
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/01_rtl/camera_frontend.v",
+      "sha256": "53fadd3005b79c654356271aa9a5314f3dff5300fd7001943e8432ba26319d96",
+      "bytes": 14964
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/01_rtl/system_top.v",
+      "sha256": "98335351a1c27c3166508b4c08b4c0131121e70d70bc5cd9c5077e9349b68f3f",
+      "bytes": 17336
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/common/dphy_rst_sync.v",
+      "sha256": "cd683a6dd68ee9057a5f3e18225ad882d925431b8e7b02e3a9280a16e0339a55",
+      "bytes": 686
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/control/uart_hex_telemetry.v",
+      "sha256": "ae0d3edea122a980bc0e8d946a5c3f293a129d319943558673126bd3398916c7",
+      "bytes": 4999
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/control/uart_port_control.v",
+      "sha256": "8832997ab2a6c07ec36162bb70638b5b7395aa63b7338c7390f8873c914409a4",
+      "bytes": 5025
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/alignment/dphy_hs_lane_aligner.v",
+      "sha256": "46eb845d6176bcf4a7d1f70ccf196020ed2c3f9cfcf85bc4095135d5b5311e24",
+      "bytes": 4368
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/alignment/dphy_lane_deskew.v",
+      "sha256": "82ecd86c3d452b807a807bf1bce8203a28c6781350955a20a4b43d97893b2694",
+      "bytes": 5734
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/core/mipi_rx_top.v",
+      "sha256": "3bd9895dec450f824cf428a07b78bc0831a63d1dfc19788faa2a0f62f39971b4",
+      "bytes": 14107
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/interface/mipi_csi2_stream_guard.v",
+      "sha256": "2c7cb9ed730a5d758e4815d3c1d8e9bafea697c2e8a711d7294114377b767f58",
+      "bytes": 5147
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/interface/mipi_rx_ip_top.v",
+      "sha256": "b86862936e9fb9080e84b6c53eaf56a67509f86316f85c82b9fe093c8ee80d21",
+      "bytes": 9059
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/phy/dphy_hs_clk_lane.v",
+      "sha256": "39535e56b9ae6e616b7d8435154c4ffd0f11806755fe76056ed153faed07a304",
+      "bytes": 820
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/phy/dphy_hs_data_lane.v",
+      "sha256": "5082b1f798bdffd2c30608a00d971b5ccb12c908b6c0e6aae56dec4d5489fe5f",
+      "bytes": 1103
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/phy/dphy_raw_async_fifo.v",
+      "sha256": "3e2679e77a36dad6fc1e78440ad74db07d5cd7cc589259052f78819d59420ee3",
+      "bytes": 3325
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/protocol/csi2_crc16_x32.v",
+      "sha256": "3ad81cb2cacb2119f21e52ea6034faf3ad9503b77254eced30ba6f629c241ac5",
+      "bytes": 1578
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/protocol/csi2_frame_observer.v",
+      "sha256": "ba7439302b81aa1bc0e06702fa27a3f142d1ad4fd2da13d9e1bf43d7339094b6",
+      "bytes": 2078
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/protocol/csi2_header_ecc.v",
+      "sha256": "aac7a19d0e6171ad3583709087db2696c957a8b8b474b8d1447a4638cd393ea7",
+      "bytes": 3674
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/protocol/csi2_packet_checker.v",
+      "sha256": "b85a1312114db2fcd0692de176e3fca89cdef784ed58734945ab4923c2ce1f05",
+      "bytes": 8763
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/mipi_rx/training/dphy_lane_calibrator.v",
+      "sha256": "1497f5d86281154cae8a0a6d5c09b9ba00f140470e279954cda387c352dced43",
+      "bytes": 19180
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/product/afc03_pcie_sgdma_endpoint.v",
+      "sha256": "60b80d475beeee9afe54f7ac581eb61af1fc7ae5effcaafc7837531491051855",
+      "bytes": 14275
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/sgdma_features.vh",
+      "sha256": "de663aeb0e1089aee047bccaaba9cccc1662d4b3299fd9d8a624e90ba272aa65",
+      "bytes": 153
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/al_ip/al_pcie_ip.dat",
+      "sha256": "b43b2af4574d1d23f1efe956d2edb113efbd1ae491bebcde3e2ba3cbfe4a988b",
+      "bytes": 8960
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/al_ip/al_pcie_ip.txt",
+      "sha256": "aa8085c659037e9ab125c88e5c5203d145f0370016c113b4818a2c0218da463f",
+      "bytes": 1394
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/al_ip/PH1_LOGIC_PCIE.v",
+      "sha256": "ac2224fe7d487b752c6a2336418c5e9c2a25e18d645c45c5f14e215320472261",
+      "bytes": 190198
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/al_ip/PH1_LOGIC_PCIE_ph1_dbi_init_mux.v",
+      "sha256": "466ad3566fed74a8f63b7204c73bb9da84d657b71f339f5287c83ce4e1700344",
+      "bytes": 11949
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/al_ip/PH1_LOGIC_PCIE_ph1_pcie_basic_top.v",
+      "sha256": "c33b5f4d849313340f971146ffc1daf25b0681dfae6449db68911fda48223a10",
+      "bytes": 117286
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/al_ip/PH1_LOGIC_PCIE_ph1_pcie_cfg_rom.v",
+      "sha256": "a11fc3fc88824249be96010ad026798efe20e1653cf29f539297ebfa2ea4435d",
+      "bytes": 1388
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/al_ip/PH1_LOGIC_PCIE_ph1_pcie_clock_ctrl.v",
+      "sha256": "247dbf3f30bf67a78533f28e2facacee60156b91cdf3ae788df24079bc37284e",
+      "bytes": 19050
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/al_ip/PH1_LOGIC_PCIE_ph1_pcie_core_pll.v",
+      "sha256": "a06dae85260f40f005f48fca56b1bc0b3d97d98e8e826a97e2332de06ba32590",
+      "bytes": 3039
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/al_ip/sgdma_pll.v",
+      "sha256": "86224b568b584992b9fe7272183d5f9ae75a465fc85e3b49fddbe6edbfaf3438",
+      "bytes": 3360
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/pcie_bridge/bridge_v1_ph1/al_pcie_if/rx_if/pcie_rx_bypass2rc.v",
+      "sha256": "47a550cad4ef5b03c6b73d1fedcfa29b2129e32f75296980f00b3a93a6a0bf27",
+      "bytes": 29380
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/pcie_bridge/bridge_v1_ph1/al_pcie_if/rx_if/pcie_rx_trgt2cq.v",
+      "sha256": "30738a3af441df6a50475015b161d23db9be751ee04c2de46c840ddaf6c1cb76",
+      "bytes": 33774
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/pcie_bridge/bridge_v1_ph1/al_pcie_if/sideband_if/pcie_sideband_dbi2mgmt.v",
+      "sha256": "e8ab2d0230be2229ab95d1ba29354e6c9ebf1b6b8541d64faf28457269241fc6",
+      "bytes": 9265
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/pcie_bridge/bridge_v1_ph1/al_pcie_if/sideband_if/pcie_sideband_msi.v",
+      "sha256": "a0cbe9218063fb1b9dd38cb28704e5e2b7779582e44b042f06ad9132af40f776",
+      "bytes": 15512
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/pcie_bridge/bridge_v1_ph1/al_pcie_if/tx_if/axi4_st_mux.v",
+      "sha256": "78ebaaed4cc40945a44e75585ae48beea0a2975f233db6dfdc50479e7fa5d996",
+      "bytes": 7722
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/pcie_bridge/bridge_v1_ph1/al_pcie_if/tx_if/pcie_tx_client02rq_new.v",
+      "sha256": "2800220a77ed3fdbf6fa462a5aa6b4f6448cbba725cb973f31aa33e348b48592",
+      "bytes": 26529
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/pcie_bridge/bridge_v1_ph1/al_pcie_if/tx_if/pcie_tx_client12cc.v",
+      "sha256": "07f30c71a705689982aacbe99ba4f2b9c8ebdc0ee82178dd3a92b6d32d7534bd",
+      "bytes": 21411
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/pcie_bridge/bridge_v1_ph1/case_ep/al_pcie_if_ep.v",
+      "sha256": "455df6e09cf55a33ca64025177a3827138a09e985ccd151f5674dc1b6b259bce",
+      "bytes": 86327
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_app/src/axil_anal.v",
+      "sha256": "9953e2717fd9eb59ef458d582a0c1cb921a9ddb6ef652ec562050ff8afa58652",
+      "bytes": 8797
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_app/src/sgdma_app.v",
+      "sha256": "c0fc3266aff4732ddd9f54d157750452cff6a10ee4d154ffa2a4044f6582db14",
+      "bytes": 33121
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_app/src/usr_axi4st_c2h.v",
+      "sha256": "922f5237445049611ca5085c64d2b3f2f6dbf3b948a0f421bf9175a263bde5b2",
+      "bytes": 2289
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_app/src/usr_axi4st_h2c.v",
+      "sha256": "9321e7fa934258b2b05179b7c3b1363587644a6f2b104f8cb4e85932f9c1f1d2",
+      "bytes": 2764
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_app/src/usr_axi4st_lp.v",
+      "sha256": "3ac6c6fe81deace4f6f702c948a4a2751271983987363b4397404293df8491b4",
+      "bytes": 4946
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_app/src/usr_cfgrw.v",
+      "sha256": "2471b3e37dc45c4e8b9820c57fe56d892fa20e5308acce6f43502c79961c1ed0",
+      "bytes": 3579
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_app/src/usr_ctrl.v",
+      "sha256": "d611a41362d95192f84bb29b994fc59e048b4561e856fb055e8f1123ff48a5b6",
+      "bytes": 1866
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_app/src/usr_dmarw.v",
+      "sha256": "493842afc475fe10bc131adfca1eab907862701e0658a020f269559248225f52",
+      "bytes": 12428
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_app/src/usr_irq.v",
+      "sha256": "d9e594d64da7d1239e6f1c5fd8808e351231f7ff1093820a3cfecdd12218f719",
+      "bytes": 3797
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/sgdma_subsys.v",
+      "sha256": "29147f852a39b37754a7f25cf1fa5501d9eb7e84574cb1e2dbc3d2d8ced31cd4",
+      "bytes": 74191
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/pcie/vendor/sgdma/src_enc/sgdma_ip_all.enc.v",
+      "sha256": "37bc8e842ced4ba528f11f7b1d2b288fcd6f44190567e38e616aec36364f59e1",
+      "bytes": 1307003
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/platform/anlogic/ui_pll.v",
+      "sha256": "a891c9126b9a0b527b4050d7ce56397bc53d51b68003aaa57497f38554967e25",
+      "bytes": 3566
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc03_imx678_static_rx_backend.sv",
+      "sha256": "18ed784d67f34d18e80974a20aec4277054a92722ce4fd67e38fd3652c163d01",
+      "bytes": 2417
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_boot_write_loader.sv",
+      "sha256": "4dd6f7ab91173bf44600324bcd5cbe0679128bd2c597e2ee9168c4bf31d4bf5b",
+      "bytes": 4746
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_camera_clock_bank_ctrl.sv",
+      "sha256": "a7e871620130048e9c563e4fb61e760d32db9b40b7925310fa651f44a1269e2e",
+      "bytes": 9105
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_camera_mode_orchestrator.sv",
+      "sha256": "1d73bd82b89223127d4eba49f1977ed2c585f3a11e140b8fb6d1ca5b311bed3e",
+      "bytes": 34560
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_camera_platform_adapter.sv",
+      "sha256": "cfd190830f30413318801bacc06e2285e4852d115ee183df19c399de27c42ef3",
+      "bytes": 17816
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_camera_platform_adapter_core.sv",
+      "sha256": "4f625078e50d302f71f9020c26635c4d96c52581b1d5e5c7a656307e00380ada",
+      "bytes": 15574
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_camera_platform_cfg_regs.sv",
+      "sha256": "134d1a8856c94d4702319855c06054b7b3d6ebdbe8bea394dafa44f88e51e5fa",
+      "bytes": 21153
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_camera_sensor_ctrl.sv",
+      "sha256": "d4a355bcdac512427d3860ab6728fd72ac625e5c8386aa974f3eb356ee057479",
+      "bytes": 8828
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_i2c_startup_guard.v",
+      "sha256": "9e2bb2263f2832d0baeba2c342f0a20d5b6c0441c125bdecc798e905b1011e64",
+      "bytes": 6656
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_i2c_write16x8_master.sv",
+      "sha256": "b361e097625cf252d892060c6dbe2f08b1052eb15635eb459a4bf11eec0c0d1e",
+      "bytes": 16096
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_sensor_profile_store.sv",
+      "sha256": "5d26577a2dc07820de62cee587a6b59e6ccca5891b77787e55abb4417c99c7ee",
+      "bytes": 22477
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_sensor_sequence_ctrl.sv",
+      "sha256": "0b84cb179e5a95ada0ebcf970aaab788d4f6c097a3bd2dab0fac1b05e8784820",
+      "bytes": 9741
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/core/afc_tick_1us.sv",
+      "sha256": "b25a24334c39a0f0724ba559cc892a8ffcedcc1f212ad4d33726f37af53f4858",
+      "bytes": 1233
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/rom/afc03_imx415_1080p60_profile_rom.sv",
+      "sha256": "fde704463fd2d886b9da99bbb90ff5080466b48bc4ba823af9882e2664601e01",
+      "bytes": 30961
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/rom/afc03_imx678_1080p30_891m_profile_rom.sv",
+      "sha256": "243abc48e8e74c3cb177136a76a38ea7e3a4865b8c0ec6872651ad04bbaf1eab",
+      "bytes": 60365
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/rom/afc03_imx678_891m_profile_rom.sv",
+      "sha256": "a0c83408c004588f79285c878eb582b76505a66e6cc8e23a789a6c17fe8ce978",
+      "bytes": 60349
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/rom/afc03_ph1a90_imx678_platform_rom.sv",
+      "sha256": "f216a8c29cb1e6b9bd0bc735b5d98138867ddb1e7365a5276a220000982cdbe8",
+      "bytes": 2655
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/top/afc03_imx678_control_subsystem.sv",
+      "sha256": "8d9ba9f78a0bccc8038d5007fa353b4ee3af81586852c36f7adfc9b9273d7403",
+      "bytes": 26298
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/sensor/top/imx415_sensor_top.v",
+      "sha256": "67a376713866164be2220cb4c487c94695e3b68bc7da23446bba8b0d4a0c5a1b",
+      "bytes": 7079
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/divider.ipc",
+      "sha256": "95478636e7359de18220944cec9ca0128a739e69e2e12428d36d433b9238023b",
+      "bytes": 688
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/divider_gate.v",
+      "sha256": "892d573d7b82ae6bc7ae644eaee95731ff69b1458632580483d05a1031038b9f",
+      "bytes": 1360721
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_awb.v",
+      "sha256": "ec453c4bd2588ea11c0e111194288ea7087dbc517b3c6eb7ee1cc93ccc97596c",
+      "bytes": 10139
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_divider/ui_divider/.m_params_ui_divider.txt",
+      "sha256": "9da5631b35ec744ba601ee21e2529d6dbe5bbc39e53daa9a5ba340b120eeaa04",
+      "bytes": 180
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_divider/ui_divider/.params_ui_divider.txt",
+      "sha256": "a6e7b352fe35dca564592fa68fb90dec973cc95960784052c6b21b8fd09ec4c3",
+      "bytes": 489
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_divider/ui_divider/.ports_ui_divider.txt",
+      "sha256": "be0a56c6a96cdb738e3515883b4623a8776562316e77010e517c1a33993e9e52",
+      "bytes": 244
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_divider/ui_divider/Design.xml",
+      "sha256": "fc531695ccb5b973b86957826401b6e53ac3c993d64cd5b2f6212b1a3c571f7c",
+      "bytes": 5792
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_divider/ui_divider/DesignConfiguration.xml",
+      "sha256": "653a37bb59745303bcd39034b91f5701652214bf2e1b1b05e8f134acadaad9d5",
+      "bytes": 973
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_divider/ui_divider/RTL/divider_top_ae263170b655.sv",
+      "sha256": "06359ec223b0b6c4a40b705318db19136b37b084a7bc49f3a1fb7021126db0c2",
+      "bytes": 56175
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_divider/ui_divider/RTL/include/define.v",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_divider/ui_divider/ui_divider.sv",
+      "sha256": "763c3efaaea4d08cce2325968e0f4a04d7d60fdbb015c107842c2b641d4acf1d",
+      "bytes": 1490
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_divider/ui_divider/ui_divider.xml",
+      "sha256": "6416702e2b1748b1fb22126ee8ed156b2fe5b95e658c4d88667f0e73d9343128",
+      "bytes": 11170
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_ram_awb_delay_signal/ui_ram_awb_delay_signal.ipc",
+      "sha256": "ce4d6888f04530684cff8b0dc50498a186e24a229ca9d60cf557ba826ac76a2f",
+      "bytes": 1818
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_ram_awb_delay_signal/ui_ram_awb_delay_signal.v",
+      "sha256": "0ee0b8b7785ad53bb959af0c7c68f4a1d2526ba226428370f7d9c238609acb02",
+      "bytes": 2594
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_ram_awb_delay_signal/ui_ram_awb_delay_signal.vhd",
+      "sha256": "a277da404e8c400c3a7e5b2b8043fd657285c57c90a3bcad684493074abbea37",
+      "bytes": 2219
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_awb/ui_signal_delay.v",
+      "sha256": "741c936cb9454448645fce23c616a36cc4ca1f9c1cfa9b0499a73f6d89f0a413",
+      "bytes": 5067
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_BLC/ui_BLC.v",
+      "sha256": "324e87c614624b3826d430f06d069a6126b5bbcb22444947079e7d0dc49cdf4a",
+      "bytes": 3765
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_brightness_adj/ui_Brightness_adj.v",
+      "sha256": "6aff0c860dddd7b78f4e29895f916e750672ab7b3e623ab45182a55fddfa7c84",
+      "bytes": 4894
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_contrast_adj/ui_contrast_adj.v",
+      "sha256": "85f8a7a0b0c833cb3cbcaea5a669fb287a046e2b38b4466e97cfb6ad8042186b",
+      "bytes": 6240
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_data128_96/ui_data128_96.v",
+      "sha256": "604480ef339dcf5f692e4548d48663029895c71ea83db6b1e5bdf758398224df",
+      "bytes": 517
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_data96_64/ui_data96_64.v",
+      "sha256": "aed22b0834918cc49146caa08cb85b4ced27c932e88554fc0751dbea6799dd3d",
+      "bytes": 710
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_bilinear_interpolation.v",
+      "sha256": "73f1f931782d6a8d099117d596a4858dba933bf759e35b9cc4cf66f838bc7a18",
+      "bytes": 34355
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_line_buffer_demosaic.v",
+      "sha256": "369872df935086bfb08c7a778aae6f13453391b176d93cf87a0091997d43dc91",
+      "bytes": 5188
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_mipi_to_raw_converter.v",
+      "sha256": "35fd15b960027d1ed380688bf2f5cc68d197092988183e04d018db236b4cad94",
+      "bytes": 2909
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_ram_demosaic/ui_ram_demosaic.ipc",
+      "sha256": "95c346452f4ea05ed9328ffe5ae3075e3672e7068d9f33dffbef3610d9aa5a50",
+      "bytes": 1800
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_ram_demosaic/ui_ram_demosaic.v",
+      "sha256": "0be80fa2e0ae04272ea596c49281ff6c092dddedd816c50241658d54494953f0",
+      "bytes": 2581
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_ram_demosaic/ui_ram_demosaic.vhd",
+      "sha256": "806f57a089c4c4d36a81a50f7cbfbb3e338b94926c83ee3f004bf28ebdbc3be5",
+      "bytes": 2190
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_ram_zhenghe/ui_ram_zhenghe.ipc",
+      "sha256": "243a7ed288d3146fcfa84907e932e0ec190c5ee7bc317d166f39769b66c8b97b",
+      "bytes": 1797
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_ram_zhenghe/ui_ram_zhenghe.v",
+      "sha256": "1420666db354c6324f552f5fc0a4e8683c81fc97b203ba1d0391d7e37f7969a1",
+      "bytes": 2578
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_ram_zhenghe/ui_ram_zhenghe.vhd",
+      "sha256": "e4fea2f16dea576dcc4a7f9e1e8178453126400032072f2b6bb68cdb19717d03",
+      "bytes": 2185
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_raw_matrix_3x3_buffer.v",
+      "sha256": "c01bd02893d94867ddcfefeeb231b81a32c4ca681b69caebc6ccbd8b31680298",
+      "bytes": 16027
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_top_demosaic.v",
+      "sha256": "defd9f7c358fb984ff239ffa05236c0e2e7c396bc5a54e4f1180a298093f4a8d",
+      "bytes": 4593
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_demosaic/ui_zhenghe.v",
+      "sha256": "28b3dca907ce1cad399a45a9127ed170cd77a7813f2d728e8effae4f0747a2a1",
+      "bytes": 7273
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_gamma.v",
+      "sha256": "fe293f5b79620d621b0d1c270fb0d626db66ac7577dc628a9d1f60f00a8826d1",
+      "bytes": 21877
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_lut_0_8.v",
+      "sha256": "a767e62e4b625cc297c2455ef40e0e46e7d060769a51fcde658760fbc7eaedf9",
+      "bytes": 13946
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_lut_1_2.v",
+      "sha256": "06443b8a397ba796060de8c9476fb434cb233af4c38c1df85cf4331ce7b70fb1",
+      "bytes": 13983
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_lut_1_4.v",
+      "sha256": "033f714e286996bd496d0ebcfabf67331fa65991ad26b04b9b8326c98027b6ce",
+      "bytes": 13998
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_lut_1_6.v",
+      "sha256": "8911211543c181899a49682f619142320975bf8b775acb1b1630bd4412f9982b",
+      "bytes": 13749
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_lut_1_8.v",
+      "sha256": "5b4b873ff3315bbe126dbaa6f3c8c7c7171b45ea2c125487c7ad3938d6993806",
+      "bytes": 14026
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_lut_2_0.v",
+      "sha256": "9a0d0daa67f2db6b300604e237ba0d1aff3cc5e62688fbb5dc175c64085db128",
+      "bytes": 14014
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_lut_2_2.v",
+      "sha256": "854cdcc776e2293eacdbb1c869b013c7f9c0f9d1e995c364d1698e0725ffbb08",
+      "bytes": 14038
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_lut_2_4.v",
+      "sha256": "80d63d590d0e1e5765e2ca9ce866207a4fd3bbbca91d2e02734cfb8bf7c2e7ab",
+      "bytes": 14017
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_gamma/ui_lut_2_6.v",
+      "sha256": "82b2f149b13ec9d01d224ba7d70d97eb6f7375463d3805982811bb07cfb85107",
+      "bytes": 14020
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_image_cut/ui_image_cut.v",
+      "sha256": "6f4b95e576c13bd0ea432945e7a23c337a883eefc24f240ee918fe39a13af078",
+      "bytes": 3776
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_isp_top.v",
+      "sha256": "b518e55824875a19ce37a0e9209b277c15a857dd2fb8c92657185c922225764a",
+      "bytes": 7344
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/ui_isp/ui_saturation_adj/ui_Saturation_adj.v",
+      "sha256": "af8fa3a65433f4b0a0d8d8dd82f0512fe44cdbd8452d330aaddd2f28ee10fa51",
+      "bytes": 11550
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/video_dma/camera_bar_regs.v",
+      "sha256": "e1b35a511d1799d282dd2920f8dd137fb66d82efdc20ac14c75747dba8630f77",
+      "bytes": 9270
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/video_dma/cdc_snapshot.v",
+      "sha256": "829f17b777fc3ca974fe53fe4aecec4d896be69b7cba13a5cfc6cde480e3078f",
+      "bytes": 2751
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/video_dma/csi2_frame_packer.v",
+      "sha256": "a46d2e640dad9cff4292190d08125699f2908222d166b5c6414e48c72e67f693",
+      "bytes": 12440
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/video_dma/vdma_async_fifo.v",
+      "sha256": "cbb959b01d357d12ad7753bd84670c48fe2470d7ab44336cbbe79ed5863a2ada",
+      "bytes": 4820
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/03_ip/video_dma/vdma_c2h_reader.v",
+      "sha256": "07a0dcafaf3e48ce21502acea302895b50d8bfb6f72590cf5fbb138016282705",
+      "bytes": 4058
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/04_pin/clock_domains.sdc",
+      "sha256": "cd041ef5e41677d50e4305ad93430a2a63ee65c74779ddffd0dcc7dcc152f543",
+      "bytes": 15992
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/04_pin/clocks.sdc",
+      "sha256": "372a2a052bba3f979edaba2d3e34c18f1cf9b8ecc56bf3d7e54ecab9365cd26b",
+      "bytes": 2715
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/04_pin/pcie_placement.adc",
+      "sha256": "8447f0b083ee405e4201443354383d7c339bedac09f63d52ff4b4451418e9aa9",
+      "bytes": 739
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/04_pin/pins.adc",
+      "sha256": "8cb4f04b1fe8e2fa60dc5ce766fe9a5d177642c2f160f425e370cd6e0207d16e",
+      "bytes": 2593
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/05_boot/README.md",
+      "sha256": "c136f302097587f2e97ac6094f03693bb8ebc94f552771665a7e7294717e76c7",
+      "bytes": 461
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/06_doc/MIPI_RX升级说明.docx",
+      "sha256": "d24bfc1b15625b4802c45759bea85b2d84b33b64e6750acc09b81458c05511df",
+      "bytes": 41162
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/06_doc/SHA256SUMS.txt",
+      "sha256": "623b4fa05e6858fb561e78d5822a7a1d9f92f173f2844daef034894cc4ecf87b",
+      "bytes": 20789
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/06_doc/工程使用说明.txt",
+      "sha256": "fba86acf007fdf727aeb74ed58a7cd131ced4cc8d1ca6e09bc19c32f5a0737b7",
+      "bytes": 1785
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/06_doc/版本信息.json",
+      "sha256": "97c0225dbe1cb726ad46a4932b1e0206a59e6f89bae2b5deeac44cfb716cbfd4",
+      "bytes": 1036
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/06_doc/编译结果说明.txt",
+      "sha256": "984a8f73e5cd5a3ab6aa73b8ec2c983037bb9123954f693a37ee0c53f47752de",
+      "bytes": 533
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_dbg.h",
+      "sha256": "5ba74db5cfc1a61a6d73739450251a9dc64a78ac40b4d98559304b5e4e9ecea2",
+      "bytes": 4585
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_desc_bypass.c",
+      "sha256": "21cae2e80267e64396c0997224830134f28cb4da5c72f0a2e10531b0adcb233a",
+      "bytes": 3210
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_desc_bypass.h",
+      "sha256": "9cdd8f8685826cd12edcb34c420b2227325088d2290e9804cfefca45573b44b0",
+      "bytes": 1121
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_pci_cdev.c",
+      "sha256": "7b233adf0022b98a3bcfbc5599dedffd274c7b57cd791b584155c1b5f8ffa58f",
+      "bytes": 15803
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_pci_cdev.h",
+      "sha256": "7df4a97e502dc95c11630a23e8515e896cc78c6d06842000b6127a492c20e51b",
+      "bytes": 1820
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_pci_dbg.h",
+      "sha256": "f56af8690f1e2eed51bcd4d81ae0f3817dbcc86b417841b2414ebfc8ab6f9e69",
+      "bytes": 1173
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_pci_drv.c",
+      "sha256": "22e80333ef75aeaa856ff81134628431423b0deb83f9c7fa13afc1765a9eece0",
+      "bytes": 8785
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_pci_drv.h",
+      "sha256": "50000b674c4ea88f195e0b29d27b958185cd3b676c3cf4cf3ea6d33bb896d431",
+      "bytes": 3453
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_pci_lib.c",
+      "sha256": "57f08b9472d1b9065867e620607eb9ae78c4fcbecc34510fc0ba292d996587ce",
+      "bytes": 155859
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_pci_lib.h",
+      "sha256": "125cf7d838b66e9510b769e5159128548e4ba06f47fae1122d425070dd68f855",
+      "bytes": 29348
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_pci_test.h",
+      "sha256": "4b5c6de51fb4911cf69867a143c0bb579a858a2eaae48785cb86d3a50483e5f4",
+      "bytes": 9308
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_ring.c",
+      "sha256": "8f7478d18870e03cb9f960b121535f0b841fcc2cfc9a5936e35485fee2e97027",
+      "bytes": 22427
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_ring.h",
+      "sha256": "1fe5c2de3bd6b155fecb9b667403e9cb7e05c21564490669f90eb3a893a75b7b",
+      "bytes": 3903
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_thread.c",
+      "sha256": "f8a95b3440380bd0405968878a50b7322b3c580d109de3fb97bb1545e5d9ec35",
+      "bytes": 8757
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/anlogic_thread.h",
+      "sha256": "495c1f53d3a0bea63f450cdf4a446461c7e4f0f6c895c0e144d61d08d55a516e",
+      "bytes": 4484
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/cdev_ctrl.c",
+      "sha256": "dadf6d460141b684d1e90095cab8561310db2c9e52dbd3560d857f091507dc2d",
+      "bytes": 12405
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/cdev_ctrl.h",
+      "sha256": "c989f9b0d868b799c343feb97f1d23cfe1e4a8066b3f8f78536b4fb8cd44bc2f",
+      "bytes": 4570
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/cdev_events.c",
+      "sha256": "42ea456c5e9a963102e6b8a4f30632260633ad9d9ce6c663d029851bd2a16c0b",
+      "bytes": 3334
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/cdev_sgdma.c",
+      "sha256": "1d0fe0278f02bdf1a7392457efb12ad8e7f11020b93bc85e4edb27523cc24e91",
+      "bytes": 33333
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/cdev_sgdma.h",
+      "sha256": "2e3636274d3eeaf441004e48cbb70b67a9366ce5e0266f3845aedb67b906e515",
+      "bytes": 3884
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/frame_ring.c",
+      "sha256": "484c3c1cc19da66215a9e670a79ec7046c282e19d808164447eaaf1673da61bf",
+      "bytes": 10564
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/Makefile",
+      "sha256": "1bfa6fe6fd554101de2f656a6d1dba8f4b68998a677235949f601a540072458b",
+      "bytes": 776
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/07_software/sgdma_drv/version.h",
+      "sha256": "e6bfa2c77736e3af85afecb2dbb6a3a006bcbc35c15e67dccba02623adb1bb9e",
+      "bytes": 1129
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/08_tools/build_project.tcl",
+      "sha256": "725c32cab1947fb464254f0dfc98c58a3b08975f797e666a39d696fa1f80a516",
+      "bytes": 1354
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/08_tools/resume_physical.tcl",
+      "sha256": "812e27667289218d30ceb1ca546e7e17b1be5c03f141db77d4766afa200ab1a8",
+      "bytes": 1503
+    },
+    {
+      "path": "fpga/p9_compact/uisrc/08_tools/synth_codec.tcl",
+      "sha256": "811d564055321c520b49c3dea66007e1b2a315794dfd7eeca96b18cabb5db0d7",
+      "bytes": 379
+    }
+  ]
+}

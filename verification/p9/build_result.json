@@ -1,0 +1,10 @@
+{
+  "build_id": "0x5630503b",
+  "setup_wns_ns": 0.001,
+  "hold_wns_ns": 0.005,
+  "setup_tns_ns": 0,
+  "hold_tns_ns": 0,
+  "bit_sha256": "ff61d3a5ed7c6c8ae0ce576ad4f084f7d33c6a83dcf322c26420011f3268160f",
+  "bytes": 4850318,
+  "supervisor_exit": 1
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "CPU RTL, synthetic stored bytes, mid-frame change held until next SOF, back-to-back frame reset, both camera IDs",
+  "cases": [
+    {
+      "camera": 0,
+      "frame": 1,
+      "mode": "lossless",
+      "epoch": 0,
+      "golden_equal": true
+    },
+    {
+      "camera": 0,
+      "frame": 2,
+      "mode": "lossy6",
+      "epoch": 8,
+      "golden_equal": true
+    },
+    {
+      "camera": 0,
+      "frame": 3,
+      "mode": "lossy6",
+      "epoch": 8,
+      "golden_equal": true
+    },
+    {
+      "camera": 1,
+      "frame": 1,
+      "mode": "lossless",
+      "epoch": 0,
+      "golden_equal": true
+    },
+    {
+      "camera": 1,
+      "frame": 2,
+      "mode": "lossy6",
+      "epoch": 8,
+      "golden_equal": true
+    },
+    {
+      "camera": 1,
+      "frame": 3,
+      "mode": "lossy6",
+      "epoch": 8,
+      "golden_equal": true
+    }
+  ]
+}

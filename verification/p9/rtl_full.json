@@ -1,0 +1,74 @@
+{
+  "scope": "CPU RTL simulation on SYNTHETIC/random stress data; byte-count guarantee only, not live sensor fps or detection accuracy",
+  "frames": [
+    {
+      "case": "full1080_3",
+      "raw_bytes": 2667904,
+      "wire_bytes": 1667536,
+      "saving_pct": 37.49640166962529,
+      "meta": {
+        "mode": "lossy6",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 2667904,
+        "wire_bytes": 1667536,
+        "pre": 0,
+        "crc32": 4176630364,
+        "algorithm": "RAW6/GRAY5 bitpack",
+        "precision_bits": 6
+      },
+      "source_sha256": "2e2d83129b1bf680ab01f2b9fdcc9b0cb0c19cd0ae6fb101ed70784c52140362",
+      "packet_sha256": "92d10740aa80ed394b320f26e4961967132257d09694f121b401d1bda0bd7ccf",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES     1667536\nLZ77 FULL FRAME PASS cycles=16146365000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 16146365202 (1ps)\n"
+    },
+    {
+      "case": "full4k_3",
+      "raw_bytes": 10591744,
+      "wire_bytes": 6619936,
+      "saving_pct": 37.49909363368299,
+      "meta": {
+        "mode": "lossy6",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 10591744,
+        "wire_bytes": 6619936,
+        "pre": 0,
+        "crc32": 728469532,
+        "algorithm": "RAW6/GRAY5 bitpack",
+        "precision_bits": 6
+      },
+      "source_sha256": "b0b4a1cfa9b8589d0b6863d031128b0f6e10898732239ca934f181622b04bd94",
+      "packet_sha256": "b7cc72c5b30f7c74bc4ae6ffbf18cdc7e5415ff29f4c927a6b6427fb6fcab55f",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES     6619936\nLZ77 FULL FRAME PASS cycles=24080505000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 24080505042 (1ps)\n"
+    },
+    {
+      "case": "gray1080_3",
+      "raw_bytes": 2073600,
+      "wire_bytes": 1328480,
+      "saving_pct": 35.93364197530864,
+      "meta": {
+        "mode": "lossy6",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 2073600,
+        "wire_bytes": 1328480,
+        "pre": 1,
+        "crc32": 587628386,
+        "algorithm": "RAW6/GRAY5 bitpack",
+        "precision_bits": 5
+      },
+      "source_sha256": "8a1180c1dc14320855e78af805c78bf5b0e83b53923e640d7de283afad767fa8",
+      "packet_sha256": "9480d6f6eb2e38c1fe6e62a3033519a29460da1e7598b3ba8ed20c751db1a998",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES     1328480\nLZ77 FULL FRAME PASS cycles=12544919000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 12544918716 (1ps)\n"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "scope": "Closed-form byte budget and recorded CPU RTL elapsed time at the testbench clock, not measured physical sensor fps",
+  "raw_max_quantization_error": 15,
+  "gray_max_quantization_error": 7,
+  "cases": [
+    {
+      "case": "full1080_3",
+      "raw_bytes": 2667904,
+      "wire_bytes": 1667536,
+      "saving_pct": 37.49640166962529,
+      "content_independent": true,
+      "testbench_elapsed_ms": 16.146365,
+      "frame_period_budget_ms": 16.666666666666668
+    },
+    {
+      "case": "full4k_3",
+      "raw_bytes": 10591744,
+      "wire_bytes": 6619936,
+      "saving_pct": 37.49909363368299,
+      "content_independent": true,
+      "testbench_elapsed_ms": 24.080505,
+      "frame_period_budget_ms": 33.333333333333336
+    },
+    {
+      "case": "gray1080_3",
+      "raw_bytes": 2073600,
+      "wire_bytes": 1328480,
+      "saving_pct": 35.93364197530864,
+      "content_independent": true,
+      "testbench_elapsed_ms": 12.544919,
+      "frame_period_budget_ms": 16.666666666666668
+    }
+  ]
+}

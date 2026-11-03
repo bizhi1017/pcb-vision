@@ -1,0 +1,204 @@
+{
+  "scope": "CPU RTL simulation on SYNTHETIC/random stress data; byte-count guarantee only, not live sensor fps or detection accuracy",
+  "frames": [
+    {
+      "case": "small_0",
+      "raw_bytes": 16400,
+      "wire_bytes": 16752,
+      "saving_pct": -2.146341463414636,
+      "meta": {
+        "mode": "raw",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 16400,
+        "wire_bytes": 16752,
+        "pre": 0,
+        "crc32": 1745058533
+      },
+      "source_sha256": "16e9b587ae8f9b4771a1aefbb6b06ccfde3e00dbac06f46e104a776346d72403",
+      "packet_sha256": "afa29d2835a49b562a7844e6811f699fa717b39501da6793951b704d6f2bd38b",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES       16752\nLZ77 FULL FRAME PASS cycles=93537000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 93537312 (1ps)\n"
+    },
+    {
+      "case": "small_1",
+      "raw_bytes": 16400,
+      "wire_bytes": 16752,
+      "saving_pct": -2.146341463414636,
+      "meta": {
+        "mode": "lossless",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 16400,
+        "wire_bytes": 16752,
+        "pre": 0,
+        "crc32": 587084206
+      },
+      "source_sha256": "0b7e6730e3a46e1ec816ec3850c7df9f50c9fb411e05a67d91e66ddd93050b3e",
+      "packet_sha256": "a3d9994d49bdda28a2a8b087f0233b375d8fc83cd3024d78fbd7434b85d91436",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES       16752\nLZ77 FULL FRAME PASS cycles=93537000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 93537312 (1ps)\n"
+    },
+    {
+      "case": "small_2",
+      "raw_bytes": 16400,
+      "wire_bytes": 16752,
+      "saving_pct": -2.146341463414636,
+      "meta": {
+        "mode": "lossy9",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 16400,
+        "wire_bytes": 16752,
+        "pre": 0,
+        "crc32": 1518013655
+      },
+      "source_sha256": "9b9cf2a52929cb78df7333fffabf4cacfeea9e822dedd2744120a5ce7a2651eb",
+      "packet_sha256": "373a2d15448e328e0b2549b22f27e13f7435f27f0734a5ca6408e280efcc6916",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES       16752\nLZ77 FULL FRAME PASS cycles=93537000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 93537312 (1ps)\n"
+    },
+    {
+      "case": "small_3",
+      "raw_bytes": 16400,
+      "wire_bytes": 10352,
+      "saving_pct": 36.8780487804878,
+      "meta": {
+        "mode": "lossy6",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 16400,
+        "wire_bytes": 10352,
+        "pre": 0,
+        "crc32": 1361740152,
+        "algorithm": "RAW6/GRAY5 bitpack",
+        "precision_bits": 6
+      },
+      "source_sha256": "7360d79d499c5033b0ce9aaa571183bf4ab3f6e477cbaaf17e604e1698d77dd0",
+      "packet_sha256": "8d2501854ca07bcffae368ff2584d8e9303581bcf724163289ff5f4b8098e598",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES       10352\nLZ77 FULL FRAME PASS cycles=93537000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 93537312 (1ps)\n"
+    },
+    {
+      "case": "gray_3",
+      "raw_bytes": 16400,
+      "wire_bytes": 10608,
+      "saving_pct": 35.3170731707317,
+      "meta": {
+        "mode": "lossy6",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 16400,
+        "wire_bytes": 10608,
+        "pre": 2,
+        "crc32": 3815312262,
+        "algorithm": "RAW6/GRAY5 bitpack",
+        "precision_bits": 5
+      },
+      "source_sha256": "db900a8a80dccd860217e672e0ac2cf451836b760ab59737bd01a5994a87ae12",
+      "packet_sha256": "0a400ab5526ee49a84334a07aa31454e8b476bae822d676d925d7a8421bc17c0",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES       10608\nLZ77 FULL FRAME PASS cycles=93537000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 93537312 (1ps)\n"
+    },
+    {
+      "case": "zero_3",
+      "raw_bytes": 16400,
+      "wire_bytes": 10352,
+      "saving_pct": 36.8780487804878,
+      "meta": {
+        "mode": "lossy6",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 16400,
+        "wire_bytes": 10352,
+        "pre": 0,
+        "crc32": 1094057882,
+        "algorithm": "RAW6/GRAY5 bitpack",
+        "precision_bits": 6
+      },
+      "source_sha256": "fe0a87de3d96b84381d6a3ff46419dc96b4d0188984c81cb66639cc7aa019d4e",
+      "packet_sha256": "8d2bd7eb633ba4b70016b087be0414949e07bbf2a93b27a24a3515ce338bf2d5",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES       10352\nLZ77 FULL FRAME PASS cycles=93537000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 93537312 (1ps)\n"
+    },
+    {
+      "case": "fault_3",
+      "fault_rejected": true
+    },
+    {
+      "case": "pattern_1",
+      "raw_bytes": 16400,
+      "wire_bytes": 9200,
+      "saving_pct": 43.90243902439024,
+      "meta": {
+        "mode": "lossless",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 16400,
+        "wire_bytes": 9200,
+        "pre": 0,
+        "crc32": 2995126417
+      },
+      "source_sha256": "1d9eeda880ef630c14343deb09aa7b260cc83362aebb799b4e37b5bb432f9d47",
+      "packet_sha256": "220955a1e0cf77aa8039ad10c0602a248bad723e1628a706a2aa53734d3926b0",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES        9200\nLZ77 FULL FRAME PASS cycles=93537000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 93537312 (1ps)\n"
+    },
+    {
+      "case": "pattern_2",
+      "raw_bytes": 16400,
+      "wire_bytes": 10400,
+      "saving_pct": 36.58536585365854,
+      "meta": {
+        "mode": "lossy9",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 16400,
+        "wire_bytes": 10400,
+        "pre": 0,
+        "crc32": 3927285642
+      },
+      "source_sha256": "4685af888a9e13ba30b5d35db4082c186cb65b6b7e3252107b02d32f042024dc",
+      "packet_sha256": "0cbbf0d5d6687a5df023b5c64dd8988c288bcab3738e9ac31b7ccd0d6a9d1692",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES       10400\nLZ77 FULL FRAME PASS cycles=93737000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 93737292 (1ps)\n"
+    },
+    {
+      "case": "zeros_lz_1",
+      "raw_bytes": 16400,
+      "wire_bytes": 9088,
+      "saving_pct": 44.58536585365853,
+      "meta": {
+        "mode": "lossless",
+        "epoch": 0,
+        "seq": 1,
+        "raw_bytes": 16400,
+        "wire_bytes": 9088,
+        "pre": 0,
+        "crc32": 1094057882
+      },
+      "source_sha256": "fe0a87de3d96b84381d6a3ff46419dc96b4d0188984c81cb66639cc7aa019d4e",
+      "packet_sha256": "6e85486aecf1293b8a2813327eb9a36042d97519c025d71f44a1db6486950e8c",
+      "wire_golden_equal": true,
+      "reconstruction_equal": true,
+      "corrupt_rejected": 9,
+      "stdout": "FRAME_BYTES        9088\nLZ77 FULL FRAME PASS cycles=93537000\nD:\\jing_sai\\FPGA111\\FPGA_work\\test\\inspection\\p9_predictive\\tb_p9.sv:48: $finish called at 93537312 (1ps)\n"
+    }
+  ]
+}

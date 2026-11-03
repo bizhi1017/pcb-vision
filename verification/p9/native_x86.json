@@ -1,0 +1,51 @@
+{
+  "scope": "WSL x86 CPU only, synthetic exhaustive byte-pattern frames; not measured RK3576 throughput",
+  "library_sha256": "9564ad25d59205ee989e0b1c75d71be4b7e590ae6de42b746aa004f4720f9d20",
+  "source_sha256": "2fce2a70e2dc3969314aaeaf64b82d234c455118961b5e14d31f506b3c540c07",
+  "cases": [
+    {
+      "profile": "1080p60",
+      "pre": 0,
+      "raw_bytes": 2667904,
+      "wire_bytes": 1667536,
+      "saving_pct": 37.49640166962529,
+      "native_median_ms": 6.765748999999488,
+      "rejections": 32,
+      "pixel_bytes_equal": true,
+      "packet_sha256": "29800ba2cbcc67872ea13eaa6a4a08365b8d282c14b8071609851eef1d37bad5"
+    },
+    {
+      "profile": "1080p60",
+      "pre": 1,
+      "raw_bytes": 2073600,
+      "wire_bytes": 1328480,
+      "saving_pct": 35.93364197530864,
+      "native_median_ms": 4.6566520000004274,
+      "rejections": 32,
+      "pixel_bytes_equal": true,
+      "packet_sha256": "b9dfb41469d93e971e20512f46b6cab625589ac14128c8980fe007790492932d"
+    },
+    {
+      "profile": "4k30",
+      "pre": 0,
+      "raw_bytes": 10591744,
+      "wire_bytes": 6619936,
+      "saving_pct": 37.49909363368299,
+      "native_median_ms": 24.34895999999931,
+      "rejections": 32,
+      "pixel_bytes_equal": true,
+      "packet_sha256": "22d24a6f22775bc93d3ef2eb75705ee24f1fe4b5fdf2304e4d988a1f0537e7a6"
+    },
+    {
+      "profile": "4k30",
+      "pre": 1,
+      "raw_bytes": 8294400,
+      "wire_bytes": 5313680,
+      "saving_pct": 35.93653549382716,
+      "native_median_ms": 18.176803999999436,
+      "rejections": 32,
+      "pixel_bytes_equal": true,
+      "packet_sha256": "2a4f2a9f27e3e3de071f49546e10efb61c3a7e62e0b2a3ea6daa7193fa3e5330"
+    }
+  ]
+}

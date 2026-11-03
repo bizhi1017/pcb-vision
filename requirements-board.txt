@@ -1,0 +1,7 @@
+# Prefer the board image's OpenCV/Qt and the vendor-matched ARM64 RKNN wheel.
+numpy>=1.24,<3
+qrcode>=7.4,<9
+Pillow>=10,<13
+# opencv-python: use image-provided cv2 if available
+# rknn-toolkit-lite2==2.3.0: obtain matching aarch64 vendor wheel
+# PyQt5: use the board image's Qt bindings for HDMI

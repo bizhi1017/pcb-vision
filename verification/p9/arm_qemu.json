@@ -1,0 +1,21 @@
+{
+  "scope": "ARM64 QEMU CPU ABI + actual compiled shared library, saved synthetic RTL packets; NOT RK3576 fps",
+  "library_sha256": "2991fe2b53b133df961abdf10a68d64deb17c653ffbcf256c5147f0fe4026f6d",
+  "cases": [
+    {
+      "case": "full1080",
+      "passed": true,
+      "stdout": "ARM CPU PASS: full1080, source bytes 2667904, packet bytes 1667536\n"
+    },
+    {
+      "case": "full4k",
+      "passed": true,
+      "stdout": "ARM CPU PASS: full4k, source bytes 10591744, packet bytes 6619936\n"
+    },
+    {
+      "case": "gray1080",
+      "passed": true,
+      "stdout": "ARM CPU PASS: gray1080, source bytes 2073600, packet bytes 1328480\n"
+    }
+  ]
+}

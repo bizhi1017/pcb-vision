@@ -1,0 +1,23 @@
+{
+  "revision": "p8",
+  "build_id": "0x56305038",
+  "bitstream": "vid008_capture_modes_p8_20261102.bit",
+  "bitstream_sha256": "178622b90022a9b7a69a2907278ee53a5e852bb546e333b1ac3102a0aa1a7d0e",
+  "report": "deliverables/bit/vid008_capture_modes_p8_20261102.routed.area",
+  "report_sha256": "6614f534e4850aae1d451edee16dc0a3e0990f81238bab9b8ad497c93fd62e77",
+  "measurement": "Static post-route usage selected by reported BUILD; not runtime load or downloaded bitstream SHA verification",
+  "resources": {
+    "Slice": {
+      "used": 56292,
+      "total": 64320
+    },
+    "ERAM": {
+      "used": 228,
+      "total": 272
+    },
+    "DSP": {
+      "used": 120,
+      "total": 240
+    }
+  }
+}

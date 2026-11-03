@@ -1,0 +1,11 @@
+{
+  "physical_bitgen_complete": true,
+  "timing_closed": true,
+  "setup_wns_ns": 0.001,
+  "hold_wns_ns": 0.005,
+  "launcher_exit": 1,
+  "launcher_error": "Final Tcl copy destination directory was missing AFTER synthesis/route/timing/bitgen completed; Python supervisor created it and copied the exact physical bitstream",
+  "boot_copy_recovered_and_sha_verified": true,
+  "rtl_and_constraints_unchanged": true,
+  "bit_sha256": "ff61d3a5ed7c6c8ae0ce576ad4f084f7d33c6a83dcf322c26420011f3268160f"
+}

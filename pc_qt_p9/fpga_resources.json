@@ -1,0 +1,23 @@
+{
+  "revision": "p7",
+  "build_id": "0x56305037",
+  "bitstream": "vid008_ab_lz77_p7_20261031.bit",
+  "bitstream_sha256": "b06826d9dadecfb9a1f0f695435581cf9b11ed249dbde951db28725b3e08045a",
+  "report": "deliverables/bit/vid008_ab_lz77_p7_20261031.routed.area",
+  "report_sha256": "eaa3ff5087f4df7a334b72dc1eb87f6d2a1027d829326a1bc668daf485ab6d15",
+  "measurement": "static post-route utilization, not runtime load; active board bitstream not automatically verified",
+  "resources": {
+    "Slice": {
+      "used": 52173,
+      "total": 64320
+    },
+    "ERAM": {
+      "used": 234,
+      "total": 272
+    },
+    "DSP": {
+      "used": 120,
+      "total": 240
+    }
+  }
+}

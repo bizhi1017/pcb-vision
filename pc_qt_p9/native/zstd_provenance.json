@@ -1,0 +1,8 @@
+{
+  "library": "Zstandard",
+  "version": "1.5.7",
+  "license": "BSD-3-Clause",
+  "license_source": "https://raw.githubusercontent.com/facebook/zstd/v1.5.7/LICENSE",
+  "binary_source": "Existing bundled Codex runtime dependency, MSVC x64 DLL",
+  "sha256": "b55975b50517bc59c93052a414a81f1bc2bf47639eee1e21aa1d1c4d50f08478"
+}

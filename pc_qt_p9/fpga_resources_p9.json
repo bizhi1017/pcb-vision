@@ -1,0 +1,23 @@
+{
+  "revision": "p9",
+  "build_id": "0x5630503b",
+  "bitstream": "vid008_compact_p9_20261103.bit",
+  "bitstream_sha256": "ff61d3a5ed7c6c8ae0ce576ad4f084f7d33c6a83dcf322c26420011f3268160f",
+  "report": "deliverables/bit/vid008_compact_p9_20261103.routed.area",
+  "report_sha256": "d8064563a16479cf23b304f7540b8faef2aa830152e49b51600199a53190e0f7",
+  "measurement": "Static final post-route report, selected by observed BUILD; not runtime load or live bitstream hash verification",
+  "resources": {
+    "Slice": {
+      "used": 57402,
+      "total": 64320
+    },
+    "ERAM": {
+      "used": 228,
+      "total": 272
+    },
+    "DSP": {
+      "used": 120,
+      "total": 240
+    }
+  }
+}

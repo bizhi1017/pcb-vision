@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PCB VISION · 手机操作台</title><link rel="stylesheet" href="/web/style.css"><script defer src="/web/app.js"></script></head>
+<body><header><div><span class="eyebrow">PCB VISION / MOBILE · WEB 3</span><h1>双路远程操作台</h1></div><span id="connection" class="pill">连接中</span></header>
+<main><section class="controls"><div><h2>选择本机预览</h2><p>预览选择仅影响本机；检测和 HDMI 控制同步到板端与 Qt。</p></div>
+<div class="options"><label><input id="enable-A" type="checkbox" checked> 相机 A</label><label><input id="enable-B" type="checkbox" checked> 相机 B</label>
+<label>画质 <select id="profile"><option value="smooth">省流 · 640宽 / 2Mbps每路</option><option value="source">高清 · 复用上位机编码 / 12Mbps每路</option></select></label></div></section>
+<section class="sound-controls"><button id="alarm-sound" aria-pressed="false">开启告警铃声（试听）</button><span id="sound-note">需先点击开启；每路每次缺陷告警响一次。</span></section>
+<section class="board-controls">
+<div><h2>HDMI 显示推送</h2><div class="output-row"><label class="sr-only" for="hdmi-mode">HDMI 输出</label><select id="hdmi-mode"><option value="off">关闭 HDMI 推送</option><option value="A">显示相机 A</option><option value="B">显示相机 B</option><option value="split">A/B 双路分屏</option></select><button id="apply-hdmi" disabled>应用 HDMI</button></div><p id="hdmi-current">等待板端状态</p><p id="hdmi-feedback" class="feedback" role="status" aria-live="polite"></p></div>
+<div><h2>截图保存位置</h2><div class="options"><label><input id="save-sd" type="checkbox" checked> 板端 SD 卡</label><label><input id="save-phone" type="checkbox" checked> 当前手机</label></div><p id="sd-status">正在读取 SD 卡状态…</p><p>手机通过下载保存 PNG；也可打开结果图，长按另存。</p></div>
+</section>
+<div id="cameras" class="cameras">
+<article id="card-A"><div class="image"><canvas id="canvas-A" width="960" height="540"></canvas><span class="camera">相机 A</span><span id="state-A" class="state">等待图像</span><span id="alarm-A" class="alarm" data-kind="unknown" role="status">● 等待有效检测</span><span id="position-badge-A" class="position-badge" role="status" hidden></span></div><div class="info"><span id="detail-A">正在获取状态</span><button id="snapshot-A" class="camera-shot" aria-label="截取相机 A 高清画面" title="截取相机 A 高清画面" disabled><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 13h8l4-6h10l4 6h8a3 3 0 0 1 3 3v22a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V16a3 3 0 0 1 3-3Z"/><circle cx="24" cy="27" r="9"/><path d="M36 18h3"/></svg></button></div><div id="detection-A" class="detection">缺陷检测状态待更新</div>
+<div class="actions" aria-label="相机 A 操作">
+<button id="detect-A" class="operation-switch" role="switch" aria-checked="false" aria-label="开启检测 相机 A" disabled><span class="switch-label">开启检测</span><span class="switch-track" aria-hidden="true"><span class="switch-state">OFF</span><span class="switch-thumb"></span></span></button>
+<button id="measure-A" class="operation-switch teal" role="switch" aria-checked="false" aria-label="测量 相机 A" disabled><span class="switch-label">测量</span><span class="switch-track" aria-hidden="true"><span class="switch-state">OFF</span><span class="switch-thumb"></span></span></button>
+<button id="position-A" class="operation-switch teal" role="switch" aria-checked="false" aria-label="位置检测 相机 A"><span class="switch-label">位置检测</span><span class="switch-track" aria-hidden="true"><span class="switch-state">OFF</span><span class="switch-thumb"></span></span></button>
+<button id="inspect-A" class="operation-switch" role="switch" aria-checked="false" aria-label="缺陷放大 相机 A" disabled><span class="switch-label">缺陷放大</span><span class="switch-track" aria-hidden="true"><span class="switch-state">OFF</span><span class="switch-thumb"></span></span></button>
+</div><p id="measure-hint-A" class="action-hint"></p><p id="feedback-A" class="feedback" role="status" aria-live="polite"></p>
+<div id="crops-A" class="defect-gallery"></div>
+<section id="result-A" class="result" hidden><h3 id="result-title-A"></h3><img id="result-image-A" alt="相机 A 操作结果图"><div class="result-links"><a id="download-A" download>下载到手机</a><a id="open-result-A" target="_blank" rel="noopener">放大查看 / 长按保存</a></div></section></article>
+<article id="card-B"><div class="image"><canvas id="canvas-B" width="960" height="540"></canvas><span class="camera">相机 B</span><span id="state-B" class="state">等待图像</span><span id="alarm-B" class="alarm" data-kind="unknown" role="status">● 等待有效检测</span><span id="position-badge-B" class="position-badge" role="status" hidden></span></div><div class="info"><span id="detail-B">正在获取状态</span><button id="snapshot-B" class="camera-shot" aria-label="截取相机 B 高清画面" title="截取相机 B 高清画面" disabled><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 13h8l4-6h10l4 6h8a3 3 0 0 1 3 3v22a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V16a3 3 0 0 1 3-3Z"/><circle cx="24" cy="27" r="9"/><path d="M36 18h3"/></svg></button></div><div id="detection-B" class="detection">缺陷检测状态待更新</div>
+<div class="actions" aria-label="相机 B 操作">
+<button id="detect-B" class="operation-switch" role="switch" aria-checked="false" aria-label="开启检测 相机 B" disabled><span class="switch-label">开启检测</span><span class="switch-track" aria-hidden="true"><span class="switch-state">OFF</span><span class="switch-thumb"></span></span></button>
+<button id="measure-B" class="operation-switch teal" role="switch" aria-checked="false" aria-label="测量 相机 B" disabled><span class="switch-label">测量</span><span class="switch-track" aria-hidden="true"><span class="switch-state">OFF</span><span class="switch-thumb"></span></span></button>
+<button id="position-B" class="operation-switch teal" role="switch" aria-checked="false" aria-label="位置检测 相机 B"><span class="switch-label">位置检测</span><span class="switch-track" aria-hidden="true"><span class="switch-state">OFF</span><span class="switch-thumb"></span></span></button>
+<button id="inspect-B" class="operation-switch" role="switch" aria-checked="false" aria-label="缺陷放大 相机 B" disabled><span class="switch-label">缺陷放大</span><span class="switch-track" aria-hidden="true"><span class="switch-state">OFF</span><span class="switch-thumb"></span></span></button>
+</div><p id="measure-hint-B" class="action-hint"></p><p id="feedback-B" class="feedback" role="status" aria-live="polite"></p>
+<div id="crops-B" class="defect-gallery"></div>
+<section id="result-B" class="result" hidden><h3 id="result-title-B"></h3><img id="result-image-B" alt="相机 B 操作结果图"><div class="result-links"><a id="download-B" download>下载到手机</a><a id="open-result-B" target="_blank" rel="noopener">放大查看 / 长按保存</a></div></section></article>
+</div>
+<section class="network"><h2>访问地址</h2><div id="addresses">正在读取板卡网口地址…</div><p id="network-tip">手机与板卡须连接同一热点。无须安装应用，也无须填写远程推送接收地址。</p></section>
+<footer>缺件 <b class="missing">绿色</b> · 污渍 <b class="stain">红色</b> · 划痕 <b class="scratch">黄色</b><br>省流预览不改变高清检测、测量与截图。切到后台会自动暂停图像传输。</footer>
+</main></body></html>
